@@ -1,0 +1,33 @@
+/* components/Header.module.css */
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: #f8f9fa;
+}
+
+.nav {
+    display: flex;
+    flex-grow: 1;
+    justify-content: space-around;
+}
+
+.link {
+    text-decoration: none;
+    font-size: 18px;
+    color: #333;
+    margin: 0 10px;
+    /* تقليل المسافة بين الكلمات */
+}
+
+.button {
+    margin-left: 100px;
+    /* زيادة المسافة بين الزر وطرف الهيدر */
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
